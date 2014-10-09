@@ -1,14 +1,13 @@
-tiff-grayscaler
-===============
+# tiff-grayscaler
 
 Command-line Java app to convert TIFF files to indexed grayscale color spaces: greatly reducing the size of the file
 
 
-h2. Building
+## Building
 
 `mvn clean package`
 
-h2. Running
+## Running
 From the command line....
 
 `java -jar target/tiff-grayscaler-1.0-SNAPSHOT-shaded.jar <levels> <infile> <outfile>`
@@ -19,7 +18,7 @@ Where:
 * infile: Path to the input file (TIFF)
 * outfile: Path to write the file to (TIFF)
 
-h2. Full Sample: Building & Running
+## Full Sample: Building & Running
 
 The following commands build, download a TIFF (CCTI v4 I believe) to test things out with, and run the program.
 
